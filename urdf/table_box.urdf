@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="table">
+  <link name="base_link">
+    <inertial>
+      <mass value="0.25" />
+      <origin xyz="0 0 0" />
+      <inertia  ixx="0.0002" ixy="0.0"  ixz="0.0"  iyy="0.0002"  iyz="0.0"
+      izz="0.0002" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="../meshes/table_box/table.stl"/>
+      </geometry>
+      <material name="light_grey">
+            <color rgba="0.82 0.81 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0.2" />
+      <geometry>
+        <box size="1.0 1.618 0.4"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
