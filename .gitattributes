@@ -1,0 +1,8 @@
+urdf/drawer.urdf filter=lfs diff=lfs merge=lfs -text
+urdf/egad filter=lfs diff=lfs merge=lfs -text
+urdf/sih filter=lfs diff=lfs merge=lfs -text
+urdf/table_box.urdf filter=lfs diff=lfs merge=lfs -text
+urdf/table.urdf filter=lfs diff=lfs merge=lfs -text
+urdf/tray filter=lfs diff=lfs merge=lfs -text
+urdf/ycb filter=lfs diff=lfs merge=lfs -text
+urdf/bin.urdf filter=lfs diff=lfs merge=lfs -text
